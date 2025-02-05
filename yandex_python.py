@@ -1,7 +1,12 @@
 a = input()
 b = input()
-c = input()
-if a == 'раз' and b == 'два' and c == 'три':
-    print('ГОРИ')
-else:
-    print('НЕ ГОРИ')
+if '@' not in a and '@' in b:
+    print('OK')
+elif '@' in a and '@' in b:
+    print('Некорректный логин')
+elif '@' not in a and '@' not in b:
+    print('Некорректный адрес')
+elif '@' in a and '@'  not in b:
+    print('Некорректный логин')
+elif '@'  in a and '@' not in b:
+    print('Некорректный адрес')
