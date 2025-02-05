@@ -1,0 +1,8 @@
+{
+    "ev3devbrowser.device": "<IP-адрес или имя устройства>",
+    "ev3devbrowser.projectUploadTool": "sftp",
+    "ev3devbrowser.projectDownloadTool": "sftp",
+    "ev3devbrowser.openocdPath": "",
+    "python.pythonPath": "/usr/bin/python3"
+  }
+  
